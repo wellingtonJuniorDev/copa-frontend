@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/vendor/css/bootstrap.min.css",
+              "src/assets/vendor/css/fontawesome.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "src/assets/vendor/js/popper.min.js",
+              "src/assets/vendor/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {

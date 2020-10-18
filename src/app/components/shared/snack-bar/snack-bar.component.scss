@@ -1,0 +1,27 @@
+.snack {
+    width: 400px;
+    margin-left: -200px;
+    background-color: #5f5e5e;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 100001;
+    left: 50%;
+    bottom: 30px;
+}
+
+@media (max-width: 800px) {
+    .snack {
+        width: 350px;
+        margin-left: -175px;
+    }
+}
+
+@media (max-width: 500px) {
+    .snack {
+        width: 250px;
+        margin-left: -125px;
+    }
+}

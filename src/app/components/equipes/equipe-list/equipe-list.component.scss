@@ -1,0 +1,29 @@
+.equipes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 1em 0;
+
+    li {
+        flex: 1 0 21%; 
+        margin: 5px;
+        padding: 1em;
+        background: #e9ecef;
+        text-align: center;
+        font-size: 1.5em;
+        cursor: pointer;
+        transition: ease-in-out .2s;
+    }
+
+    li:hover {
+        -webkit-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+        box-shadow: 2px 2px 7px 0px rgba(0,0,0,0.75);
+    }
+}
+
+.destaque {
+    background: #7c8a96 !important;
+    color: white !important;
+}

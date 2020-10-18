@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let equipe of equipesClassificadas; let i = index"
+        class="text-left">
+         {{ i + 1 }}° | {{ equipe.nome }}
+         <span *ngIf="equipe.vencedora" class="float-right text-gold">
+            <i class="fas fa-trophy"></i>
+         </span>
+    </li>
+</ul>
