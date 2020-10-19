@@ -15,7 +15,7 @@
 <ul class="equipes">      
     
     <li *ngFor="let equipe of equipes | async"
-        (click)="selcionarEquipe(equipe.id)"
+        (click)="selecionarEquipe(equipe.id)"
         [class.destaque]="equipeJahFoiSelecionada(equipe.id)">                
         <p>{{equipe.nome}}</p>
         <p>{{equipe.sigla}}</p>

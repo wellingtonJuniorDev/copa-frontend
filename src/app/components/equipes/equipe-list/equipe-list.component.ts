@@ -22,7 +22,7 @@ export class EsquipeListComponent implements OnInit {
     this.equipes = this.equipeService.obterEquipes()    
   }
 
-  selcionarEquipe = (id: string) => {
+  selecionarEquipe = (id: string) => {
     if (this.equipeJahFoiSelecionada(id))
     {
       this.removerEquipeSelecionada(id)

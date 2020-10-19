@@ -16,7 +16,7 @@ export class EquipeResultComponent implements OnInit {
 
   ngOnInit(): void {
     if (!this.copaFoiGerada()) {
-      this.router.navigate(['/home'])
+      this.router.navigate(['/'])
     }    
   }
 

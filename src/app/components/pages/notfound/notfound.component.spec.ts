@@ -22,4 +22,11 @@ describe('NotfoundComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render text voltar para a pagina principal', () => {
+    const fixture = TestBed.createComponent(NotfoundComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement;
+    expect(compiled.querySelector('div a').textContent).toContain('Voltar para a página principal');
+  });
 });
